@@ -7,7 +7,7 @@ const App = () => {
       <header className="header">
         <h1>TypeScript OpenAPI Generator</h1>
         <p className="description">
-          Generate OpenAPI specifications from TypeScript types for distributed typescript projects
+          Generate OpenAPI specifications from TypeScript types for distributed typescript projects.
         </p>
       </header>
 
