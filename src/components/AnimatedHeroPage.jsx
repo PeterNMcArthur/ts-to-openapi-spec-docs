@@ -76,7 +76,7 @@ const AnimatedHeroPage = () => {
             y1={nodes[conn.id1]?.y}
             x2={nodes[conn.id2]?.x}
             y2={nodes[conn.id2]?.y}
-            stroke="rgba(59, 130, 246, 0.2)"
+            stroke="rgb(59 130 246 / 0.5)"
             strokeWidth="2"
             opacity={conn.opacity}
           />
@@ -88,18 +88,16 @@ const AnimatedHeroPage = () => {
             <circle
               cx={node.x}
               cy={node.y}
-              r="4"
-              fill="#3B82F6"
-              className="animate-pulse"
+              r="6"
+              className="fill-blue-500 animate-pulse"
             />
             <circle
               cx={node.x}
               cy={node.y}
-              r="8"
-              fill="transparent"
-              stroke="#3B82F6"
-              strokeWidth="1"
-              opacity="0.2"
+              r="12"
+              className="fill-transparent stroke-blue-500"
+              strokeWidth="2"
+              opacity="0.3"
             />
           </g>
         ))}
