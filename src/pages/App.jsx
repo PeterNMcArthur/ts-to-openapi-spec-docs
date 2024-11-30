@@ -16,8 +16,8 @@ const App = () => {
 
         <main>
           <section className="features">
-            <h2 className="text-3xl font-semibold mb-4 text-white">Features</h2>
-            <ul className="space-y-2 text-blue-100">
+            <h2 className="text-3xl font-semibold mb-4 text-slate-900">Features</h2>
+            <ul className="space-y-2 text-gray-700">
               <li>Generate AWS Lambda functions from OpenAPI specs</li>
               <li>TypeScript support out of the box</li>
               <li>Automatic request validation</li>
@@ -27,7 +27,7 @@ const App = () => {
           </section>
 
           <section className="installation">
-            <h2 className="text-3xl font-semibold mb-4 text-white">Installation</h2>
+            <h2 className="text-3xl font-semibold mb-4 text-slate-900">Installation</h2>
             <pre className="bg-gray-800 p-4 rounded-lg"><code className="text-blue-200">npm install typescript-openapi-generator</code></pre>
           </section>
 
